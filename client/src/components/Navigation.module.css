@@ -1,0 +1,9 @@
+nav {
+  padding: 10px 0px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}

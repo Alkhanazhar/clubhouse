@@ -1,0 +1,59 @@
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0 0 0;
+  flex-direction: column;
+}
+.buttonWrapper {
+  display: flex;
+  width: 450px;
+  max-width: 90%;
+  margin-bottom: 10px;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.buttonWrapper button {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  gap: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  /* background-color: #262626; */
+  width: 60px;
+  height: 60px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #0c8ce9;
+  color: white;
+  cursor: pointer;
+  border: none;
+  /* margin: rem; */
+  margin: 0 auto 0.6rem;
+  text-transform: capitalize;
+  border-radius: 50px;
+
+  transition: 300ms all;
+}
+.button:hover {
+  background: #0a62a1;
+}
+.active {
+  background-color: #0c8ce9;
+  
+}
+.deactive {
+  background-color: #262626;
+  
+}
